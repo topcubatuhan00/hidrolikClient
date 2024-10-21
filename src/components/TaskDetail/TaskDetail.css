@@ -1,0 +1,21 @@
+@media only screen and (max-width: 575px){
+    #taskDescDetail{
+        flex-direction: column;
+        text-align: center;
+    }
+    #taskDesc{
+        padding: 10px;
+        max-width: 100% !important;
+    }
+
+    #taskDescTitle{
+        border-bottom:1px solid rgba(0, 0, 0, 0.062);
+        margin-bottom: 10px;
+    }
+    #taskDescIcon{
+        display: flex;
+        justify-content: space-between;
+        font-size: 16px;
+        width: 100%;
+    }
+}

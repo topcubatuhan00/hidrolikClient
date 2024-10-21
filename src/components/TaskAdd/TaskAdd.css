@@ -1,0 +1,11 @@
+@media only screen and (max-width: 600px){
+    #responsiveCol{
+        display: flex;
+        flex-direction: column !important;
+    }
+}
+
+.homeInfo{
+    padding: 10px;
+    font-size: 18px;
+}
