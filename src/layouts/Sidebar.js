@@ -47,8 +47,8 @@ const Sidebar = () => {
 	};
 	let location = useLocation();
 
-	const [flag, setFlag] = useState(false);
-	const [isLogged, setIsLogged] = useState(false);
+	const [flag, setFlag] = useState(true);
+	const [isLogged, setIsLogged] = useState(true);
 
 	// useEffect(() => {
 	// 	const token = localStorage.getItem('Token')
