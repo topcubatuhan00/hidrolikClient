@@ -12,7 +12,7 @@ const navigation = [
 		icon: "bi bi-house-door-fill h3 mb-0",
 	},
 	{
-		title: "Görevlerim",
+		title: "Parça Listesi",
 		href: "/mytasks",
 		icon: "bi bi-list-task h3 mb-0",
 	},
@@ -20,25 +20,32 @@ const navigation = [
 
 const adminNavigation = [
 	{
-		title: "Görev Ekle",
+		title: "Parça Ekle",
 		href: "/taskadd",
 		icon: "bi bi-file-earmark-plus-fill h3 mb-0",
 	},
 	{
-		title: "Tüm Görevler",
+		title: "Tüm Ürünler",
 		href: "/alltasks",
 		icon: "bi bi-person-lines-fill h3 mb-0",
 	},
 	{
-		title: "Rol İşlemleri",
+		title: "Hortumlar",
 		href: "/roles",
 		icon: "bi bi-person-fill-lock h3 mb-0",
 	},
 	{
-		title: "Etiket İşlemleri",
+		title: "Silindirler",
 		href: "/tickets",
 		icon: "bi bi-ticket-fill h3 mb-0",
 	},
+	{
+		title: "Siparişler",
+		href: "/tickets",
+		icon: "bi bi-ticket-fill h3 mb-0",
+	},
+
+	
 ]
 
 const Sidebar = () => {
